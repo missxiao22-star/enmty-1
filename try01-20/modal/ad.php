@@ -1,0 +1,14 @@
+<div class="cent">新增動態文字廣告</div>
+<hr>
+<form action="../api/insert.php?table=<?=$_GET['table']?>" method="post" enctype="multipart/form-data" style="margin:auto;width:60%;">
+    <table>
+        <tr>
+            <td>動態文字廣告</td>
+            <td><input type="text" name="text" id="text"></td>
+        </tr>
+    </table>
+    <div class="cent">
+        <input type="submit" value="新增">
+        <input type="reset" value="重置">
+    </div>
+</form>
